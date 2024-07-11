@@ -1,10 +1,10 @@
 {
     "version": 2,
     "builds": [
-      { "src": "bot__MurafaLIcey.py", "use": "@vercel/python" }
+      { "src": "main.py", "use": "@vercel/python" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "bot__MurafaLIcey.py" }
+      { "src": "/(.*)", "dest": "main.py" }
     ]
   }
   
